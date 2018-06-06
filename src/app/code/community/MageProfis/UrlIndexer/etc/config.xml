@@ -60,6 +60,14 @@
                     </urlindexer>
                 </observers>
             </controller_front_init_routers>
+            <controller_action_noroute>
+                <observers>
+                    <urlindexer>
+                        <class>MageProfis_UrlIndexer_Model_Observer_Noroute</class>
+                        <method>searchRedirects</method>
+                    </urlindexer>
+                </observers>
+            </controller_action_noroute>
         </events>
     </global>
     <adminhtml>
